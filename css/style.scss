@@ -4,12 +4,9 @@ $bgColor: #333;
   display: flex;
   justify-content: space-between;
 }
-%widthCien {
-  width: 100%;
-}
 
 header {
-  @extend widthCien;
+  width: 100%;
   padding: 20px 50px;
   background-color: $bgColor;
   @include flexBetween();
@@ -30,7 +27,7 @@ header {
 }
 
 body {
-  @extend widthCien;
+  width: 100%;
   font-size: 15px;
   font-weight: 300;
   color: #1d1d1d;
@@ -38,7 +35,7 @@ body {
   margin: 0;
 }
 .banner {
-  @extend widthCien;
+  width: 100%;
   padding: 40px 0;
   text-align: center;
   background-image: url(/img/banner.avif);
@@ -47,13 +44,13 @@ body {
   color: #fff;
   background-position-y: 40%;
   h2 {
-    @extend widthCien;
+    width: 100%;
     font-weight: 600;
     font-size: 25px;
     margin: 10px;
   }
   p {
-    @extend widthCien;
+    width: 100%;
     margin: 0 auto;
     font-size: 25px;
     opacity: 0.7;
@@ -96,7 +93,7 @@ body {
   top: 100px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.3);
   h2 {
-    @extend widthCien;
+    width: 100%;
     text-align: center;
     font-weight: 600;
     font-size: 20px;
@@ -124,7 +121,7 @@ body {
       }
     }
     &.delete-icon {
-      @extend widthCien;
+      width: 100%;
     }
   }
 }
@@ -164,7 +161,7 @@ body {
     padding: 10px;
     article {
       > img {
-        @extend widthCien;
+        width: 100%;
         max-width: 200px;
         margin-bottom: 10px;
       }
@@ -175,7 +172,7 @@ body {
     }
   }
   .cart {
-    @extend widthCien;
+    width: 100%;
     box-shadow: none;
     h2 {
       padding: 15px 0;
